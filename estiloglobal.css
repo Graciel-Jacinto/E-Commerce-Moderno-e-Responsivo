@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.headerinnercontent{
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: autogit status
+;
+}
+
+header{
+    background-image: radial-gradient(#ffff, #c7c7c7);
+}
+.navbar{
+    background-color: rgb(104, 102, 102);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px;
+    z-index: 99;
+}
+.navbar>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    color: blue;
+
+}
+
+.logo span{
+    color: white;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.naviconcoitanier{
+    display: flex;
+    align-items: center;
+
+}
+.naviconcoitanier img{
+width: 30px;
+cursor: pointer;    
+}
+.naviconcoitanier img>:first-child{
+    margin-right: 1rem;
+}
+
+nav ul li{
+    color: white;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}
+.menubuton{
+    display: none;
+}
+.headerbottomside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.headerbottomsideleft{
+    height: 100%;
+    flex-basis: 50%;
+
+}
+.headerbottomsideleft h2{
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+
+}
+.headerbottomsideleft p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.headerbottomsideleft button{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 999px;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    
+
+}
+.headerbottomsideleft button:hover{
+    background-color:#004c94;
+    transition: all 0.2s;
+}
+
+.headerbottomsideight{
+     flex-basis: 50%;
+     display: flex;
+     align-content: center;
+
+}
+.headerbottomsideight img{
+     width: 115%;
+}
